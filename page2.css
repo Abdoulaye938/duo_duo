@@ -2,7 +2,7 @@
     padding: 0px;
     margin: 0px;
 }
-.header{
+header{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +10,25 @@
     padding-bottom: 1%;
     background-color: #1E90FF;
     font-size: 30px;
+    list-style: none;
 
+}
+ul{
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1.5rem;
+    list-style: none;
+    
+}
+a{
+    text-decoration: none; 
+}
+.liste{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;  
 }
 .aside{
     justify-content: center;

@@ -3,9 +3,34 @@
     flex-direction: column;
     text-align: center;
 }
-.bandeau{
-    height: 70px;
-    background-color: cornflowerblue;
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    background-color: #1E90FF;
+    font-size: 30px;
+    list-style: none;
+
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1.5rem;
+    list-style: none;
+    text-decoration: none;  
+}
+a{
+    text-decoration: none;  
+}
+.liste{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;  
 }
 main{
     display: flex;
